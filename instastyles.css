@@ -1,0 +1,212 @@
+/* Title comment*/
+.container{
+  background-color: #fafafa;
+
+}
+
+.row1{
+  margin-top: 68px;
+}
+
+.one{
+  float: left;
+  margin-left: 140px;
+  margin-right: 7px;
+  width: 454px; height: 618px;
+}
+
+.two{
+  width: 350px; height: 478px;
+  background-color: white;
+  border-width: thin;
+  border-color: lightgray;
+  border-style: solid;
+  margin-left: 600px;
+  margin-top: -25px;
+  position: absolute;
+}
+
+.logo{
+  width: 179px; height: 71px;
+  margin-left: 71px;
+  margin-top: 20px;
+}
+
+.loginfb{
+  background-color: #3897f0;
+  border-width: 0px;
+  width: 268px; height: 28px;
+  margin-left: 30px;
+  margin-top: 8px;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.fa {
+  background: ##3897f0;
+  padding: 0px;
+  font-size: 14px;
+  width: 268px; height: 28px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 22px;
+  margin-top: 12px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.fa-facebook {
+  background: #3897f0;
+  color: white;
+}
+
+.signBox {
+  background: #3897f0;
+  padding: 0px;
+  font-size: 14px;
+  width: 268px; height: 28px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 22px;
+  margin-top: 12px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.oRbox{
+  width: 268px; height: 16px;
+  margin-left: 22px;
+  margin-right: 40px;
+  margin-top: 15px;
+  margin-bottom: 18px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.oRline{
+  width: 106.52px;
+  height: 1px;
+  position: relative;
+  display: inline-block;
+  border-color: #999;
+  border-style: solid;
+  border-width: 0.5px;
+  bottom: .45em;
+}
+
+.oRword{
+  font-size: 13px;
+  display: inline-block;
+  color: #999;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+.formInputs {
+  display: inline-block;
+  width: 258px; height: 34px;
+  margin-top:10px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  border-radius: 1px;
+  border: solid;
+  border-color: #999;
+  border: 0;
+  border-width: thin;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-left: 7px;
+  color: #999;
+  background-color: #fafafa;
+}
+
+.termBox {
+  margin-left: 12px;
+  margin-top: 10px;
+  padding: 10px 50px;
+}
+
+.terms {
+  text-align: center;
+  color: #999;
+}
+
+.termsLink {
+  color: #999;
+  font-weight: bold;
+}
+
+
+.three {
+  background-color: white;
+  width: 350px; height: 14px;
+  padding-top: 28px;
+  padding-bottom: 50px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 470px;
+  position: absolute;
+  border-width: thin;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+.five {
+  margin-top: 570px;
+  width: 350px;
+  text-align: center;
+  display: inline-block;
+}
+
+.andphone {
+  display: inline-block;
+  width: 136px;
+  margin-top: 10px;
+}
+
+.footLink {
+  margin-top: 20px;
+  float: left;
+  display: inline-block;
+  word-spacing: 20px;
+  margin-bottom: 30px;
+
+}
+
+.copyRight {
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+  color: gray
+}
+
+@media screen and (max-width: 768px) {
+
+  .one {
+    display: none;
+  }
+
+  .two{
+    margin-left: 10px;
+    background-color: #fafafa;
+    border: none;
+  }
+
+  .three{
+    background-color: #fafafa;
+    border: none;
+  }
+
+  .footLink {
+    text-align: center;
+    float: none;
+  }
+
+  .copyRight {
+    float: none;
+    padding-left: 100px;
+  }
+}
