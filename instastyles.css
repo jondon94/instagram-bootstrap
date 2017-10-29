@@ -11,7 +11,7 @@
 .one{
   float: left;
   margin-left: 140px;
-  margin-right: 30px;
+  margin-right: 7px;
   width: 454px; height: 618px;
 }
 
@@ -61,13 +61,27 @@
   color: white;
 }
 
+.signBox {
+  background: #3897f0;
+  padding: 0px;
+  font-size: 14px;
+  width: 268px; height: 28px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 22px;
+  margin-top: 12px;
+  font-family: sans-serif;
+  color: white;
+}
+
 .oRbox{
   width: 268px; height: 16px;
   margin-left: 22px;
   margin-right: 40px;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 18px;
   display: inline-block;
+  font-weight: bold;
 }
 
 .oRline{
@@ -77,7 +91,7 @@
   display: inline-block;
   border-color: #999;
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.5px;
   bottom: .45em;
 }
 
@@ -112,6 +126,7 @@
 .termBox {
   margin-left: 12px;
   margin-top: 10px;
+  padding: 10px 50px;
 }
 
 .terms {
@@ -132,7 +147,7 @@
   padding-bottom: 50px;
   display: inline-block;
   text-align: center;
-  margin-top: 480px;
+  margin-top: 470px;
   position: absolute;
   border-width: thin;
   border-color: lightgray;
@@ -140,7 +155,7 @@
 }
 
 .five {
-  margin-top: 580px;
+  margin-top: 570px;
   width: 350px;
   text-align: center;
   display: inline-block;
@@ -148,22 +163,23 @@
 
 .andphone {
   display: inline-block;
-  width: 155px;
-  margin-top: 30px;
+  width: 136px;
+  margin-top: 10px;
 }
 
 .footLink {
-  margin-top: 30px;
+  margin-top: 20px;
   float: left;
   display: inline-block;
   word-spacing: 20px;
   margin-bottom: 30px;
+
 }
 
 .copyRight {
   float: right;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 20px;
   color: gray
 }
 
@@ -187,5 +203,10 @@
   .footLink {
     text-align: center;
     float: none;
+  }
+
+  .copyRight {
+    float: none;
+    padding-left: 100px;
   }
 }
