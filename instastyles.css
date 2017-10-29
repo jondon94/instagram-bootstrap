@@ -2,19 +2,17 @@
 .container{
   background-color: #fafafa;
 
-  margin-left: 292px;
 }
 
 .row1{
   margin-top: 68px;
-
 }
 
 .one{
+  float: left;
+  margin-left: 140px;
+  margin-right: 30px;
   width: 454px; height: 618px;
-  background-image: url('phonebase.png');
-  padding: 50px;
-
 }
 
 .two{
@@ -23,8 +21,9 @@
   border-width: thin;
   border-color: lightgray;
   border-style: solid;
-  margin-left: -18px;
+  margin-left: 600px;
   margin-top: -25px;
+  position: absolute;
 }
 
 .logo{
@@ -125,6 +124,7 @@
   font-weight: bold;
 }
 
+
 .three {
   background-color: white;
   width: 350px; height: 14px;
@@ -132,16 +132,60 @@
   padding-bottom: 50px;
   display: inline-block;
   text-align: center;
-  margin-top: 20px;
-  margin-right: 336px;
-  position: relative;
+  margin-top: 480px;
+  position: absolute;
   border-width: thin;
   border-color: lightgray;
   border-style: solid;
 }
 
 .five {
-  float: right;
-  text-align: right;
+  margin-top: 580px;
+  width: 350px;
+  text-align: center;
   display: inline-block;
+}
+
+.andphone {
+  display: inline-block;
+  width: 155px;
+  margin-top: 30px;
+}
+
+.footLink {
+  margin-top: 30px;
+  float: left;
+  display: inline-block;
+  word-spacing: 20px;
+  margin-bottom: 30px;
+}
+
+.copyRight {
+  float: right;
+  display: inline-block;
+  margin-top: 30px;
+  color: gray
+}
+
+@media screen and (max-width: 768px) {
+
+  .one {
+    display: none;
+  }
+
+  .two{
+    margin-left: 10px;
+    background-color: #fafafa;
+    border: none;
+  }
+
+  .three{
+    background-color: #fafafa;
+    border: none;
+  }
+
+  .footLink {
+    text-align: center;
+    float: none;
+  }
 }
